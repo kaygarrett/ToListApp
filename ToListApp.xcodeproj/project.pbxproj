@@ -16,6 +16,8 @@
 		18ED69AC24D09393005C25C3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18ED69AA24D09393005C25C3 /* LaunchScreen.storyboard */; };
 		18ED69B724D09393005C25C3 /* ToListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED69B624D09393005C25C3 /* ToListAppTests.swift */; };
 		18ED69C224D09393005C25C3 /* ToListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED69C124D09393005C25C3 /* ToListAppUITests.swift */; };
+		18ED69D024D09780005C25C3 /* ToDoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED69CF24D09780005C25C3 /* ToDoTableViewController.swift */; };
+		18ED69D224D097D5005C25C3 /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18ED69D124D097D5005C25C3 /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		18ED69BD24D09393005C25C3 /* ToListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18ED69C124D09393005C25C3 /* ToListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToListAppUITests.swift; sourceTree = "<group>"; };
 		18ED69C324D09393005C25C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18ED69CF24D09780005C25C3 /* ToDoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoTableViewController.swift; sourceTree = "<group>"; };
+		18ED69D124D097D5005C25C3 /* ToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +85,7 @@
 		18ED699024D09391005C25C3 = {
 			isa = PBXGroup;
 			children = (
+				18ED69CF24D09780005C25C3 /* ToDoTableViewController.swift */,
 				18ED699B24D09391005C25C3 /* ToListApp */,
 				18ED69B524D09393005C25C3 /* ToListAppTests */,
 				18ED69C024D09393005C25C3 /* ToListAppUITests */,
@@ -105,6 +110,7 @@
 				18ED699E24D09391005C25C3 /* SceneDelegate.swift */,
 				18ED69A024D09391005C25C3 /* ViewController.swift */,
 				18ED69A224D09391005C25C3 /* Main.storyboard */,
+				18ED69D124D097D5005C25C3 /* ToDo.swift */,
 				18ED69A824D09393005C25C3 /* Assets.xcassets */,
 				18ED69AA24D09393005C25C3 /* LaunchScreen.storyboard */,
 				18ED69AD24D09393005C25C3 /* Info.plist */,
@@ -265,7 +271,9 @@
 				18ED69A124D09391005C25C3 /* ViewController.swift in Sources */,
 				18ED699D24D09391005C25C3 /* AppDelegate.swift in Sources */,
 				18ED69A724D09391005C25C3 /* ToListApp.xcdatamodeld in Sources */,
+				18ED69D224D097D5005C25C3 /* ToDo.swift in Sources */,
 				18ED699F24D09391005C25C3 /* SceneDelegate.swift in Sources */,
+				18ED69D024D09780005C25C3 /* ToDoTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
